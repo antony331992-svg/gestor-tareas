@@ -1,0 +1,133 @@
+/* Configuración general */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+/* 1. PERFIL ARRIBA A LA DERECHA */
+.user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Lo empuja a la derecha */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #172B4D;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.welcome {
+    font-size: 0.7rem;
+    color: #888;
+    text-transform: uppercase;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* 2. CIERRE DE SESIÓN ABAJO (FOOTER) */
+.footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    text-align: center; /* Centra el texto abajo */
+}
+
+.logout-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 1px solid #d9534f;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.logout-link:hover {
+    background-color: #d9534f;
+    color: white;
+}
+
+/* Estilo para los títulos */
+h1 { color: #172B4D; }
+footer {
+    background-color: #1a252f; /* Un azul muy oscuro */
+    color: white;
+    padding: 30px 0 10px 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; /* Separa las columnas equitativamente */
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    min-width: 150px;
+}
+
+.footer-section h4 {
+    margin-top: 0;
+    color: #0079BF; /* El azul de tus botones */
+    border-bottom: 2px solid #0079BF;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    display: block;
+    color: #bdc3c7;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #34495e;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 0.8em;
+    color: #7f8c8d;
+}
